@@ -3,10 +3,7 @@ C:\Users\Méhes Mátyás\source\repos\Szakdoga\Szakdoga\obj\Debug\net6.0\Szakdog
 C:\Users\Méhes Mátyás\source\repos\Szakdoga\Szakdoga\obj\Debug\net6.0\Szakdoga.AssemblyInfoInputs.cache
 C:\Users\Méhes Mátyás\source\repos\Szakdoga\Szakdoga\obj\Debug\net6.0\Szakdoga.AssemblyInfo.cs
 C:\Users\Méhes Mátyás\source\repos\Szakdoga\Szakdoga\obj\Debug\net6.0\Szakdoga.csproj.CoreCompileInputs.cache
-C:\Users\Méhes Mátyás\source\repos\Szakdoga\Szakdoga\obj\Debug\net6.0\Szakdoga.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Méhes Mátyás\source\repos\Szakdoga\Szakdoga\obj\Debug\net6.0\Szakdoga.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Méhes Mátyás\source\repos\Szakdoga\Szakdoga\obj\Debug\net6.0\Szakdoga.RazorAssemblyInfo.cache
-C:\Users\Méhes Mátyás\source\repos\Szakdoga\Szakdoga\obj\Debug\net6.0\Szakdoga.RazorAssemblyInfo.cs
 C:\Users\Méhes Mátyás\source\repos\Szakdoga\Szakdoga\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\Méhes Mátyás\source\repos\Szakdoga\Szakdoga\bin\Debug\net6.0\appsettings.json
 C:\Users\Méhes Mátyás\source\repos\Szakdoga\Szakdoga\bin\Debug\net6.0\Szakdoga.staticwebassets.runtime.json
@@ -49,13 +46,9 @@ C:\Users\Méhes Mátyás\source\repos\Szakdoga\Szakdoga\bin\Debug\net6.0\Microso
 C:\Users\Méhes Mátyás\source\repos\Szakdoga\Szakdoga\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\Méhes Mátyás\source\repos\Szakdoga\Szakdoga\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\Méhes Mátyás\source\repos\Szakdoga\Szakdoga\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\Méhes Mátyás\source\repos\Szakdoga\Szakdoga\bin\Debug\net6.0\Microsoft.OpenApi.dll
 C:\Users\Méhes Mátyás\source\repos\Szakdoga\Szakdoga\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
 C:\Users\Méhes Mátyás\source\repos\Szakdoga\Szakdoga\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\Méhes Mátyás\source\repos\Szakdoga\Szakdoga\bin\Debug\net6.0\Mono.TextTemplating.dll
-C:\Users\Méhes Mátyás\source\repos\Szakdoga\Szakdoga\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\Méhes Mátyás\source\repos\Szakdoga\Szakdoga\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\Méhes Mátyás\source\repos\Szakdoga\Szakdoga\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\Méhes Mátyás\source\repos\Szakdoga\Szakdoga\bin\Debug\net6.0\System.CodeDom.dll
 C:\Users\Méhes Mátyás\source\repos\Szakdoga\Szakdoga\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
 C:\Users\Méhes Mátyás\source\repos\Szakdoga\Szakdoga\bin\Debug\net6.0\System.Drawing.Common.dll
@@ -87,9 +80,7 @@ C:\Users\Méhes Mátyás\source\repos\Szakdoga\Szakdoga\obj\Debug\net6.0\staticw
 C:\Users\Méhes Mátyás\source\repos\Szakdoga\Szakdoga\obj\Debug\net6.0\staticwebassets.pack.json
 C:\Users\Méhes Mátyás\source\repos\Szakdoga\Szakdoga\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\Méhes Mátyás\source\repos\Szakdoga\Szakdoga\obj\Debug\net6.0\staticwebassets.development.json
-C:\Users\Méhes Mátyás\source\repos\Szakdoga\Szakdoga\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Méhes Mátyás\source\repos\Szakdoga\Szakdoga\obj\Debug\net6.0\scopedcss\bundle\Szakdoga.styles.css
-C:\Users\Méhes Mátyás\source\repos\Szakdoga\Szakdoga\obj\Debug\net6.0\scopedcss\projectbundle\Szakdoga.bundle.scp.css
 C:\Users\Méhes Mátyás\source\repos\Szakdoga\Szakdoga\obj\Debug\net6.0\Szakdoga.csproj.CopyComplete
 C:\Users\Méhes Mátyás\source\repos\Szakdoga\Szakdoga\obj\Debug\net6.0\Szakdoga.dll
 C:\Users\Méhes Mátyás\source\repos\Szakdoga\Szakdoga\obj\Debug\net6.0\refint\Szakdoga.dll

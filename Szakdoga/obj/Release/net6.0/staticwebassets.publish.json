@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "hwqz7O+vUjA0DYfWHIDMgnnSgCG9VNUltZL3tUP/vTk=",
+  "Source": "Szakdoga",
+  "BasePath": "_content/Szakdoga",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Szakdoga\\wwwroot",
+      "Source": "Szakdoga",
+      "ContentRoot": "C:\\Users\\Méhes Mátyás\\source\\repos\\Szakdoga\\Szakdoga\\wwwroot\\",
+      "BasePath": "_content/Szakdoga",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Méhes Mátyás\\source\\repos\\Szakdoga\\Szakdoga\\wwwroot\\htmlpage.html",
+      "SourceId": "Szakdoga",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Méhes Mátyás\\source\\repos\\Szakdoga\\Szakdoga\\wwwroot\\",
+      "BasePath": "_content/Szakdoga",
+      "RelativePath": "htmlpage.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\htmlpage.html"
+    }
+  ]
+}

@@ -134,14 +134,6 @@ namespace Szakdoga.Controllers
         [Route("/api/login")]
         public async Task<IActionResult> Login([FromBody] LoginRequest request)
         {
-            var key = new byte[32];
-            using (var generator = new RNGCryptoServiceProvider())
-            {
-                generator.GetBytes(key);
-            }
-
-            // Convert the key to a base64-encoded string and use it in your appsettings.json file
-            var base64Key = Convert.ToBase64String(key);
 
             var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == request.Email);
             if (user == null)
