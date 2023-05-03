@@ -9,10 +9,6 @@ using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
-
-
-// Add services to the container.
 builder.Services.AddControllers();
 var config = new ConfigurationBuilder()
     .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
@@ -50,8 +46,6 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         };
     });
 
-
-// Configure the HTTP request pipeline.
 var app = builder.Build();
 
 app.UseHttpsRedirection();

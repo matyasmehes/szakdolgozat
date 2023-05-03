@@ -175,7 +175,7 @@ namespace Szakdoga.Controllers
             var claimsDescripitor = new SecurityTokenDescriptor
             {
                 Subject = claimsIdentity,
-                Expires = DateTime.UtcNow.AddDays(7),
+                Expires = DateTime.UtcNow.AddDays(1),
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature),
                 Issuer = "myapp",
                 Audience = "myclient"
@@ -189,7 +189,7 @@ namespace Szakdoga.Controllers
             var tokenDescriptor = claimsDescripitor;
 
             var token = tokenHandler.CreateToken(tokenDescriptor);
-            Console.WriteLine(tokenHandler.WriteToken(token));
+  
             return tokenHandler.WriteToken(token);
         }
 
