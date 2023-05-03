@@ -30,7 +30,6 @@ namespace Szakdoga.Controllers
             _configuration = configuration;
         }
 
-        // GET: api/orders
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Order>>> GetOrders()
         {
@@ -53,7 +52,6 @@ namespace Szakdoga.Controllers
             return Ok(orders);
         }
 
-        // GET: api/orders/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Order>> GetOrder(int id)
         {
@@ -67,7 +65,6 @@ namespace Szakdoga.Controllers
             return Ok(order);
         }
 
-        // GET: api/menuitems
         [HttpGet]
         [Route("/api/menuitems")]
         public async Task<ActionResult<IEnumerable<MenuItem>>> GetMenuItems()
@@ -76,7 +73,6 @@ namespace Szakdoga.Controllers
             return Ok(menuItems);
         }
 
-        // POST: api/orders
         [Authorize]
         [HttpPost("postorder")]
         [Route("/api/Order")]
@@ -198,18 +194,15 @@ namespace Szakdoga.Controllers
         [Route("/api/register")]
         public async Task<IActionResult> Register([FromBody] RegisterRequest registerModel)
         {
-            // Check if the email is already in use
             if (await _context.Users.AnyAsync(u => u.Email == registerModel.Email))
             {
                 return BadRequest("Email address is already in use.");
             }
             
-
-            // Generate a salt and hash the password
             byte[] salt = GenerateSalt();
             string passwordHash = HashPassword(registerModel.Password, salt);
 
-            // Create a new user object
+
             User newUser = new User
             {
                 FirstName = registerModel.FirstName,
@@ -221,7 +214,6 @@ namespace Szakdoga.Controllers
                 CreatedAt = DateTime.UtcNow
             };
 
-            // Add the user to the database
             _context.Users.Add(newUser);
             await _context.SaveChangesAsync();
 
@@ -262,7 +254,6 @@ namespace Szakdoga.Controllers
                 return BadRequest("Invalid user ID in the token.");
             }
 
-            // Find user by id
             var user = _context.Users.FirstOrDefault(u => u.Id == userId);
 
             if (user == null)
@@ -270,7 +261,6 @@ namespace Szakdoga.Controllers
                 return NotFound();
             }
 
-            // Create a new object with only the desired properties
             var userProfile = new
             {
                 FirstName = user.FirstName,
